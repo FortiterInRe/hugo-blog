@@ -28,10 +28,10 @@ darkmode: true
 
 # 站点基本信息
 # Site Information Settings
-author: NexT 主题
-subtitle: 为 Hugo 打造的主题
-description: 保持简单的易用性和强大的功能。
-keywords: Hugo,NexT,主题,简单,强大
+author: Alcie Bob
+subtitle: Just a blog
+description: maths and tech
+keywords: maths,tech
 
 # 不同尺寸站点图标
 # Different size of favicon
@@ -65,7 +65,7 @@ creativeCommons:
   size: big
   # 侧边栏显示
   # Show in sidebar
-  sidebar: true
+  sidebar: false
   # 文章底部显示
   # Show in post footer
   post: true
@@ -140,7 +140,7 @@ avatar:
   rounded: true
   # 开启头像随鼠标转动动画
   # If true, the avatar will be rotated with the cursor.
-  rotated: true
+  rotated: false
 siteState: 
   # 是否在侧边栏显示文章、分类、标签信息
   # Posts / Categories / Tags in sidebar.
@@ -148,10 +148,10 @@ siteState:
   # 站点访问信息
   # Site information
   views: 
-    enable: true
+    enable: false
     # 组件类型，可选值为： 51la, busuanzi
     # 使用51la时需要注册账号：https://invite.51.la/1NUfGTS1?target=V6
-    # Plguin value is: 51la, busuzazi
+    # Plugin value is: 51la, busuzazi
     plugin: busuanzi
 
 # 社交链接地址
@@ -162,9 +162,9 @@ siteState:
 # Key is the link label order.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 socials: 
-  social0: Github || https://github.com/elkan1788 || fab fa-github
-  #social1: E-Mail || mailto:yourname@gmail.com || fa fa-envelope
-  social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
+  #social0: Github || https://github.com/elkan1788 || fab fa-github
+  social1: E-Mail || mailto:author@mathematicaltech.top || fa fa-envelope
+  #social2: 知乎 || https://www.zhihu.com/people/lisenhui || fa fa-book
   #Google: https://plus.google.com/yourname || fab fa-google
   #Twitter: https://twitter.com/yourname || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
@@ -195,7 +195,7 @@ linksSets:
   icon: fa fa-globe
   # 显示标题
   # Show title
-  title: 友情链接
+  title: 
   # 可选值： block | inline
   # Available values: block | inline
   layout: inline
@@ -204,9 +204,10 @@ linksSets:
 # 用法： `Key: 显示名称 || 链接地址`
 # Links of your friends
 # Usage: `Key: name || permalink`
-links: 
-  link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
-  link1: 凡梦星尘空间站 || https://lisenhui.cn
+links:
+  link0: Homepage || mathematicaltech.top
+  #link0: Hugo-NexT || https://gitee.com/hugo-next/hugo-theme-next
+  #link1: 凡梦星尘空间站 || https://lisenhui.cn
 
 # 文章目录显示
 # Table of Contents in the Sidebar
@@ -240,7 +241,7 @@ footer:
   # 站点开始年份，默认为当下时间的年份
   # Specify the year when the site was setup. 
   # If not defined, current year will be used.
-  since: 2010
+  since: 2024
 
   # 年份和版权信息之间的图标
   # Icon between year and copyright info.
@@ -261,13 +262,13 @@ footer:
 
   # 显示 Hugo 和 NexT 支持
   # Powered by Hugo & NexT
-  powered: true
+  powered: false
 
   # 国内 ICP 备案和公安网备信息
   # Beian ICP and gongan information for Chinese users. 
   # See: https://beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
-    enable: true
+    enable: false
     # ICP 备案的具体信息
     icp: 粤ICP备 18047355-1 号
     # 公安网备的省份简称
@@ -278,7 +279,7 @@ footer:
   # 站点支持供应商列表
   # Vendors list who support website. 
   vendors:
-    enable: true
+    enable: false
     # 支持说明
     # Some support information description.
     title: 提供CDN/云资源支持
@@ -335,7 +336,7 @@ postMeta:
       plugin: waline
     # 是否开启页面访问数显示
     views:
-      enable: true
+      enable: false
       # 页面访问统计插件，支持busuanzi, waline, leancloud
       # Page views counter plugin, support: busuanzi, waline, leancloud
       plugin: busuanzi
@@ -346,7 +347,7 @@ postFooter:
   # 通过线条将文章和捐赠等信息隔开，并在线条上添加提示信息
   # Use line to separate post and reward etc other information
   # and add tip title on line.
-  endLineTip: "~ 我可是有底线的哟 ~"
+  endLineTip: "It's the bottom."
   # 是否使用小图标，默认使用 # 符号表示标签
   # Use icon instead of the symbol # to indicate the tag
   tagIcon: true
@@ -357,12 +358,12 @@ rewardSets:
   # 是否开启捐赠按钮，开启后将在每个文章页面底部显示
   # If true, a donate button will be displayed 
   # in every article by default.
-  enable: true
+  enable: false
   # 是否开启捐赠方式的动画效果
   # If true, the donate type title will with animation.
   animation: true
   # 捐赠信息的描述，支持 HTML 语法
-  # Comment for donate and suppport HTML syntax
+  # Comment for donate and support HTML syntax
   comment: '<i class="fa-solid fa-mug-hot"></i>请我喝杯咖啡吧 ヾ(^▽^*)))'
   # 捐赠方式
   # 用例： `名称:图像地址`
@@ -381,14 +382,14 @@ rewardSets:
 followMe:
   #channel0: Twitter || https://twitter.com/username || fab fa-twitter
   #channel1: Telegram || https://t.me/channel_name || fab fa-telegram
-  channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
-  channel3: RSS || /atom.xml || fa fa-rss
+  #channel2: WeChat || /images/wechat_channel.jpg || fab fa-weixin
+  #channel3: RSS || /atom.xml || fa fa-rss
 
 # 文章的在线编辑
 # Post edit
 # Easily browse and edit blog source code online.
 postEdit:
-  enable: true
+  enable: false
   url: https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/
 
 
@@ -432,7 +433,7 @@ codeblock:
 # Backtop settings
 backTop:
   # 开启返回顶部按钮显示
-  # If true, will display backtop button in buttom.
+  # If true, will display backtop button in bottom.
   enable: true
   # 在侧边栏显示返回顶部按钮
   # Back to top in sidebar.
@@ -460,7 +461,7 @@ readingProgress:
   # Change the color of progress bar, using Hex Code.
   color: "#37c6c0"
   # 进度条的高度
-  # Hight of the read progress bar.
+  # Height of the read progress bar.
   height: 3px
 
 # 书签功能
@@ -484,7 +485,7 @@ bookmark:
 githubBanner:
   # 是否开启显示
   # If true, will display banner.
-  enable: true
+  enable: false
   # 你的 Github 仓库地址
   # Your repository url on Github.
   permalink: https://github.com/hugo-next
@@ -639,7 +640,7 @@ quicklink:
 comments:
   # 开启评论组件
   # If true, will show comment component in post end.
-  enable: true   
+  enable: false
   # 设置默认使用的评论插件
   # 可选值：livere | waline | utterances | artalk | giscus
   # Choose a comment system to be displayed by default.
@@ -669,7 +670,7 @@ comments:
 # Waline 评论插件
 # 更多配置信息请参考：https://waline.js.org/
 # Waline comments system
-# More info seee: https://waline.js.org/
+# More info see: https://waline.js.org/
 waline:
   placeholder: "请文明发言哟 ヾ(≧▽≦*)o \n\n可用快捷键选取表情符号：😀😄😁🥳👻👽👀🚄\n(Window系统：Win+.，Mac系统：Control+Command+Space)"
   sofa: "快来发表你的意见吧 (≧∀≦)ゞ"
@@ -795,9 +796,9 @@ analytics:
   # 不蒜子统计
   # Show Views / Visitors of the website / page with busuanzi.
   # For more information: http://ibruce.info/2015/04/04/busuanzi/
-  busuanzi:
-    visitorsIcon: fa fa-user
-    viewsIcon: fa fa-eye
+  #busuanzi:
+  # visitorsIcon: fa fa-user
+  # viewsIcon: fa fa-eye
 
 
 # ---------------------------------------------------------------
@@ -821,7 +822,7 @@ algoliaSearch:
 localSearch:
   # 是否开启搜索功能
   # Enable search function
-  enable: true
+  enable: false
   # 搜索索引文件路径
   # Indexes file path for search
   path: /searchindexes.xml
@@ -856,7 +857,7 @@ chat:
 # Gitter Support
 # For more information: https://gitter.im
 gitter:
-  enable: true
+  enable: false
   room: hugo-next/community
 
 
